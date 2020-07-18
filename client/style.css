@@ -1,0 +1,926 @@
+
+body {
+    background-color: #E9EBEE;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.blueLinks {
+  color: #385A97;
+}
+
+.topbluebar {
+  position: fixed;
+  width: 110%;
+  height: 42px;
+  background-color: #3C5A96;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: white;
+  z-index: 10;
+}
+
+.icons {
+  margin-left: 2.2%;
+  margin-top: 9px;
+  height: 24px;
+}
+
+#searchbox {
+  position: inherit;
+  height: 18px;
+  margin-left: 0.3%;
+  margin-top: 9px;
+  width: 34.5%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#lupa{
+  position: inherit;
+  height: 15px;
+  margin-left: 33%;
+  margin-top: 13px;
+}
+
+#ArsalanProfilePhoto {
+  margin-left: 46%;
+}
+
+#ArsalanLabelText{
+  position: fixed;
+  margin-top: 14px;
+  margin-left: .2%;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+#GlavnayaText{
+  position: fixed;
+  margin-top: 14px;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+#friendsIcon{
+  margin-left: 11%;
+  opacity: .6;
+}
+
+#notificationIcon {
+  margin-left: .5%;
+  opacity: .6;
+}
+
+#earthIcon {
+  margin-top: 9px;
+  margin-left: .5%;
+  opacity: .6;
+}
+
+#line{
+  position: fixed;
+  margin-left: 55px;
+  margin-top: 13px;
+  height: 15px;
+}
+
+#line2{
+  position: fixed;
+  margin-top: 13px;
+  margin-left: 10px;
+  height: 15px;
+}
+
+#lockIcon {
+  position: fixed;
+  opacity: .6;
+  height: 16px;
+  margin-top: 13px;
+}
+
+#arrowIcon {
+  position: fixed;
+  opacity: .6;
+  height: 16px;
+  margin-top: 13px;
+  margin-left: 4%;
+}
+
+li {
+  list-style-type: none;
+  color: black;
+}
+
+.leftSide {
+  position: fixed;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 42px;
+  left: 10px;
+  width: 210px;
+  float: left;
+}
+
+.leftList {
+  line-height: 24px;
+  margin-left: -12px;
+  vertical-align: inherit;
+}
+
+.leftListNames {
+  vertical-align: 5px;
+}
+
+.whiteBack{
+  position: absolute;
+  background-color: #F6F7F9;
+  margin-top: 85px;
+  margin-left: 15px;
+  width: 188px;
+  height: 30px;
+  z-index: -10;
+}
+
+.leftIcons {
+  height: 20px;
+  margin-left: -8px;
+}
+
+#lentaNovosteyIcon {
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+.bistriyeSsilki {
+    position: relative;
+    font-size: 11px;
+    left: -10px;
+    padding-bottom: 15px;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+#interesnoe{
+  position: relative;
+  font-size: 11px;
+  margin-top: 5px;
+  left: -8px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+#eweLeft{
+  margin-left: 8px;
+  color: #385A97;
+}
+
+#arrowLeftIcon {
+  z-index: auto;
+  left: 34px;
+  opacity: .4;
+  height: 15px;
+}
+
+#interesnoyeLeft {
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+#sozdatLeft {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#leftLastReklam {
+  position: absolute;
+  line-height: 15px;
+  left: 18px;
+  color: #385A97;
+}
+
+.postSide {
+  position: absolute;
+  left: 17.3%;
+  top: 7.75%;
+  width: 39.25%;
+  height: 170%;
+  font-size: 12px;
+  z-index: -1;
+}
+
+#wait {
+  margin-top: 5%;
+  margin-left: 47%;
+}
+
+#newStatus {
+  background-color: #F6F7F9;
+  height: 130px;
+}
+
+.postBar {
+  background-color: #F6F7F9;
+  height: 24%;
+}
+
+#strelkaVverx {
+  position: absolute;
+  left: 92px;
+  top: 25px;
+  height: 10px;
+  opacity: .8;
+}
+
+.sozdatPublikaciyuText {
+  color: #4B4F56;
+  font-weight: bold;
+  position: relative;
+  vertical-align: 1px;
+}
+
+#albomsfoto {
+  color: #385A97;
+}
+
+#lineGray {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 5px;
+  height: 15px;
+}
+
+.newPostIcons {
+  margin-top: 8px;
+  margin-left: 12px;
+  margin-right: 10px;
+  height: 12px;
+}
+
+.textPostArea{
+  height: 43%;
+  background-color: white;
+  max-height: 57px;
+  border-top: 1px solid #DFE0E4;
+  border-bottom: 1px solid #DFE0E4;
+}
+
+.textPostArea .textArea{
+  height: 43%;
+  background-color: white;
+  max-height: 57px;
+  padding-top: 15px;
+  font-size: 14px;
+  resize: none;
+  line-height: 14px;
+  border: 0;
+  margin-left: 8px;
+  width: 85%;
+}
+
+#ArsalanProfilePost {
+  margin-top: 1.7%;
+  margin-left: 2.2%;
+  height: 70%;
+}
+
+.bottomBarPost{
+  background-color: #F6F7F9;
+  width: 100%;
+}
+
+#dotupnoVsemBotton {
+  margin-left: 220px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  width: 142px;
+  margin-top: 8px;
+}
+
+#earthButton {
+  height: 20px;
+  margin-left: -20px;
+  opacity: .7;
+}
+
+#opublikovatButton {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 8px;
+  width: 121px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #385A97;
+  font-weight: bold;
+}
+
+#dostupnoVsemButtonText {
+  position: relative;
+  top: -6px;
+  color: #4B4F56;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+}
+
+#dostupnoVsemArrow {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 14px;
+  opacity: .6;
+}
+
+#opublikovatButtonText {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+#DayazWindow {
+  margin-top: 12px;
+  height: 1042px;
+  background-color: white;
+  border: 1px solid #DFE0E4;
+}
+
+#izbrannoyeStar {
+  position: absolute;
+  margin-left: 92%;
+  margin-top: 2%;
+  height: 11px;
+}
+
+#thirdcolumn {
+  z-index: -1;
+  position: absolute;
+  margin-left: 56.75%;
+  margin-top: 3.70%;
+  background-color: white;
+  width: 309px;
+  height: 711px;
+}
+
+.withborder {
+  border: 1px solid #DFE0E4;
+  border-radius: 3px;
+}
+
+#lang {
+  z-index: -1;
+  position: absolute;
+  background-color: white;
+  width: 310px;
+  height: 58px;
+  margin-left: 56.75%;
+  margin-top: 60.75%;
+  border: 1px solid #DFE0E4;
+}
+
+.confed {
+  text-align:justify;
+  position: absolute;
+  z-index: -1;
+  color: #90949C;
+  font-size: 12px;
+  width: 310px;
+  height: 100px;
+  margin-left: 57%;
+  margin-top: 66.3%;
+}
+
+.confedText {
+  text-align:justify;
+  position: absolute;
+  z-index: -1;
+  color: #90949C;
+}
+
+button {
+  height: 25px;
+  background-color: white;
+  border-width: thin;
+}
+
+.prejdeVseqo {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: #90949C;
+}
+
+#internetPortal {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+#dayazfirstcontent {
+  position: relative;
+  top: 3.5%;
+  height: 461px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.dayazfistPost {
+  background-color: white;
+}
+
+.firstdayaztopbar {
+  background-color: white;
+}
+
+#dayazIcon {
+  height: 40px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+#dayazinternetpostal2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #385A97;
+}
+
+#podelilsaSsilkoy {
+  position: absolute;
+  font-size: 14px;
+  margin-left: 182px;
+  margin-top: 15px;
+  color: #90949C;
+}
+
+#ssilkoy {
+  color: #385A97;
+}
+
+#min41{
+  position: absolute;
+  color: #90949C;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+
+#settingsDayaz {
+  position: absolute;
+  height: 10px;
+  margin-left: 106px;
+  margin-top: -18px;
+}
+
+#arrowDown {
+  position: absolute;
+  height: 7px;
+  margin-left: 478px;
+  margin-top: 13px;
+}
+
+#arrowDown2 {
+  margin-left: 40px;
+  height: 7px;
+}
+
+#presidentDiv {
+  margin-top: 3px;
+  margin-left: 6px;
+  width: 97.5%;
+}
+
+#presidentPhoto {
+  margin-top: 3px;
+  margin-left: 6px;
+  width: 97.5%;
+  border: 1px solid #DFE0E4;
+}
+
+#prezidentNews {
+  position: relative;
+  height: 90px;
+  font-size: 18px;
+  font-family: Georgia, Lucida Grande, Tahoma, Verdana, Arial, sans-serif;
+  width: 97.5%;
+  margin-left: 6.3px;
+  margin-top: -4px;
+  border: 1px solid #DFE0E4;
+}
+
+.content1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#newsdayaz {
+  color: #90949C;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#lineHor1 {
+  margin-left: 2.5%;
+  margin-right: 2%;
+  margin-top: 42px;
+  border-width: .1px;
+}
+
+.nravitsaBar {
+  margin-left: -13px;
+}
+
+.nravitsaImagesRR {
+ height: 12px;
+ margin-right: 10px;
+}
+
+.nravitsaImages {
+  vertical-align: middle;
+  margin-left: 35px;
+  height: 14px;
+}
+
+#plus {
+  float: right;
+  background-color: #E9EBEE;
+  height: 34px;
+  width: 34px;
+  border-style: none;
+}
+
+#plusSign {
+  font-size: 15px;
+  font-weight: bold;
+  opacity: .6;
+}
+
+.nravitsaText {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #90949C;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#dayazSecondcontent {
+  position: relative;
+  top: 4.75%;
+  height: 461px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#content2 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#thirdColumnContainer {
+  margin-left: 12px;
+  margin-top: 15px;
+  margin-right: 12px;
+  height: 100px;
+}
+
+#cale15{
+  position: relative;
+  top: -4px;
+  height: 16px;
+}
+
+#priglawenie1{
+  position: absolute;
+  top: 12px;
+  color: #385AA4;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.lineHorThirdColumn {
+  width: 100%;
+  border-width: .1px;
+}
+
+.igri {
+  position: relative;
+  color: #90949C;
+  font-size: 11px;
+  font-weight: 600;
+  margin-right: 80px;
+  top: -2px;
+}
+
+.thirdcolumnIcons{
+  height: 16px;
+  margin-left: 10px;
+}
+
+#pp {
+  vertical-align: 2px;
+  height: 12px;
+}
+
+#thirdcolumnArrow {
+  position: absolute;
+  height: 7px;
+  margin-top: 4px;
+}
+
+.thirdcolumnPhoto {
+  border-radius: 3px;
+  height: 90px;
+}
+
+#soccer {
+  margin-left: 3px;
+}
+
+#thirdcolumnEweArrow {
+  opacity: .3;
+  height: 13px;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+#thirdcolumnEwe {
+  margin-left: 5px;
+  color: #4469B0;
+  font-size: 12px;
+}
+
+#reklama {
+  color: #90949C;
+  font-size: 11px;
+  font-weight: 600;
+  vertical-align: -3px;
+  margin-right: 90px;
+  top: -2px;
+}
+
+#lineb {
+  line-height: 1.35;
+}
+
+#thirdColumnSozdatReklam {
+  color: #4469B0;
+  font-size: 12px;
+  margin-left: 35px;
+  vertical-align: -4px;
+}
+
+#bookGirl {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#SATText {
+  color: #3C5A96;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#azeristudentText {
+  font-size: 12px;
+  color: #3C5A96;
+}
+
+#SATHazirliq {
+  font-size: 12px;
+  color: #90949C;
+}
+
+#mensurInvest {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#nravitsaRight {
+  color: #4B4F56;
+  font-weight: bold;
+}
+
+#nravitsaRightButton {
+  border-color: #CED0D4;
+  background-color: #E9EBEE;
+  border-radius: 2px;
+}
+
+.thirdColMensurLinks {
+  color: #3C5A96;
+  font-weight: bold;
+}
+
+#qazanmagiText {
+  color: #90949C;
+}
+
+#russkiy {
+  color: #808080;
+}
+
+.langContainer {
+  color: #385A97;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.fourthColumn {
+  background-color: #E9EBEE;
+  position: fixed;
+  border: 1px solid #CCCCCC;
+  font-size: 12px;
+  line-height: 16px;
+  top: 42px;
+  right: 0;
+  bottom: 0;
+  width: 205px;
+}
+
+.fourthContainer {
+  margin-left: 8px;
+  margin-right: 5px;
+  margin-top: 5px;
+  height: 100%;
+}
+
+.vawiIgri {
+  color: #989DB2;
+  font-size: 11px;
+}
+
+.eweFourth {
+  margin-left: 100px;
+  font-size: 9px;
+  color: #989DB2;
+}
+
+.eweFourth2 {
+  margin-left: 30px;
+  font-size: 9px;
+  color: #989DB2;
+}
+
+.fourthPhoto {
+  margin-left: 5px;
+  border-radius: 8px;
+}
+
+#firstFourthPhoto {
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.strelkaRight {
+  height: 12px;
+  margin-bottom: 18px;
+}
+
+.games {
+  height: 165px;
+  /*background-color: red;*/
+}
+
+#fourthPhoto {
+  margin-left: -0px;
+
+}
+
+#rilast{
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+#hor5 {
+  margin-top: -2px;
+  margin-left: -8px;
+  margin-right: -4px;
+  border-width: .5px;
+}
+
+.spletni {
+  overflow: scroll;
+  height: 180px;
+  line-height: 1.5;
+}
+
+.onlineFriends {
+  overflow: scroll;
+  height: 300px;
+}
+
+.rigthPhotoProfil {
+  height: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+#hor6 {
+  border-width: .5px;
+}
+
+#hor7 {
+  border-width: .5px;
+  margin-left: -8px;
+}
+
+.rightFriends {
+  margin-bottom: 0px;
+}
+
+.rightNames {
+  vertical-align: -6px;
+}
+
+#poblizosti {
+  line-height: 3;
+  color: #4C4C4C;
+  font-size: 11px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.baku {
+  position: relative;
+  font-size: 9px;
+  color: #92959A;
+  top: -20px;
+  left: 42px;
+}
+
+.hours {
+  color: #A1A5AC;
+  font-size: 9px;
+  float: right;
+  margin-top: -12px;
+}
+
+.poblizostiDruzya {
+  margin-top: -12px;
+}
+
+.poisk {
+  position: absolute;
+  background-color: #F6F7F9;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+#poiskLast {
+  vertical-align: 2px;
+  background-color: #F6F7F9;
+  font-size: 14px;
+  color: #949495;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-width: 0;
+  border-style: none;
+  width: 110px;
+}
+
+#i {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+#poiskLupa {
+  margin-top: 10px;
+  position: relative;
+  margin-left: 12px;
+  height: 12px;
+  margin-right: 5px;
+  opacity: .6;
+}
+
+#poiskS {
+  height: 12px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+#poiskW {
+  height: 12px;
+}

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<head>
+  <title>Arsalan Facebook</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="topbluebar">
+    <a href="https://www.facebook.com/?ref=logo">
+      <img src="photo/fbicon.png" class="icons"></a>
+
+      <input placeholder="Ищите людей, места или предметы" type="text" id="searchbox">
+      <img src="photo/lupa.png" class="icons" id="lupa">
+
+      <a href="https://www.facebook.com/arsalan.mail" title="Профиль" >
+        <img src="photo/ArsalanProfilePhoto.jpeg" class="icons" id="ArsalanProfilePhoto">
+        <span id="ArsalanLabelText">Arsalan</span></a>
+
+      <img src="photo/line1.png" id="line">
+
+      <a href="https://www.facebook.com/?ref=logo" title="Главная" >
+        <span id="GlavnayaText">Главная</span>
+      </a>
+
+      <img src="photo/friends.png" class="icons" id="friendsIcon">
+      <img src="photo/notificationIcon.png" class="icons" id="notificationIcon">
+      <img src="photo/earth.png" class="icons" id="earthIcon">
+
+      <img src="photo/line1.png" id="line2">
+
+      <img src="photo/lockIcon.png" class="icons" id="lockIcon">
+      <img src="photo/arrowIcon.png" class="icons" id="arrowIcon">
+  </div>
+  <div class="whiteBack" style="position: fixed">
+
+  </div>
+    <div class="leftSide">
+      <ul class="leftList" draggable="false">
+        <li><img src="photo/ArsalanProfilePhoto.jpeg" class="leftIcons" id="leftProfilePhoto">
+          <a href="#"><span class="leftListNames">Arsalan Iravani</span></a></li>
+        <li id="lentaNovosteyIcon"><a href="https://www.facebook.com/?sk=nf"><img src="photo/lentaNovosteyIcon.png" class="leftIcons"><span class="leftListNames"> Лента новостей</span></a></li>
+        <li><a href="https://www.facebook.com/messages/t/"><img src="photo/MessengerIcon.png" class="leftIcons"><span class="leftListNames"> Messenger</span></a></li>
+
+        <li class="bistriyeSsilki">БЫСТРЫЕ ССЫЛКИ</li>
+
+        <li><a href="https://www.facebook.com/groups/503307346497665/"><img src="photo/GroupIcon.png" class="leftIcons"><span class="leftListNames"> Engineering(2018-20...</span></a></li>
+        <li><a href="https://www.facebook.com/groups/adaba2018/"><img src="photo/GroupIcon.png" class="leftIcons"><span class="leftListNames"> ADA BA Class of 2018</span></a></li>
+        <li><a href="https://www.facebook.com/groups/azeri.developers/"><img src="photo/AzeriDevelopersIcon.png" class="leftIcons"><span class="leftListNames"> Azeri Developers</span></a></li>
+        <li><a href="https://www.facebook.com/groups/221177451634377/"><img src="photo/NetworkIcon.png" class="leftIcons"><span class="leftListNames"> Network</span></a></li>
+
+        <li id="interesnoe">ИНТЕРЕСНОЕ</li>
+
+        <li><a href="https://www.facebook.com/events/upcoming?action_history=null"><img src="photo/mero.png" class="leftIcons"><span class="leftListNames"> Мероприятия</span></a></li>
+        <li><a href="https://www.facebook.com/pages/?category=liked"><img src="photo/StraniciIcon.png" class="leftIcons"><span class="leftListNames"> Страницы</span></a></li>
+        <li><a href="https://www.facebook.com/groups/"><img src="photo/GroupIcon.png" class="leftIcons"><span class="leftListNames"> Группы</span></a></li>
+        <li><a href="https://www.facebook.com/saved/?cref=28"><img src="photo/SoxranennoyeIcon.png" class="leftIcons"><span class="leftListNames"> Сохраненное</span></a></li>
+        <li><a href="https://www.facebook.com/offers/v2/wallet?ref=bookmarks"><img src="photo/PredlojeniyaIcon.png" class="leftIcons"><span class="leftListNames"> Предложения</span></a></li>
+        <li><a href="https://www.facebook.com/pokes"><img src="photo/PodmigivaniyaIcon.png" class="leftIcons"><span class="leftListNames"> Подмигивания</span></a></li>
+
+
+        <li><a href="#"><img src="photo/arrowIcon.png" class="leftIcons" id="arrowLeftIcon"><span id="eweLeft">Еще...</span></a></li>
+
+        <li class="bistriyeSsilki" id="sozdatLeft">СОЗДАТЬ</li>
+
+        <li id="leftLastReklam">
+          <a href="https://www.facebook.com/ads/manager/creation/creation/?act=222160894520039&pid=p1">Рекламу</a> ·
+          <a href="https://www.facebook.com/pages/create/?ref_type=bookmark">Страницу</a> ·
+          <a href="#">Группу</a> ·
+          <a href="#">Мероприятие</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- NEWS PART -->
+  <div class="main">
+    <div class="postSide">
+      <div id="newStatus" class="withborder">
+        <div class="postBar">
+          <a href="#"><img src="photo/pencilNewStatus.png" class="newPostIcons">
+          <span class="sozdatPublikaciyuText">Создать публикацию</span>
+          </a>
+
+          <img src="photo/lineGray.png" id="lineGray">
+
+          <a href="#"><img src="photo/cameraIcon.png" class="newPostIcons">
+            <span class="sozdatPublikaciyuText" id="albomsfoto">Фото/видео</span>
+          </a>
+
+          <img src="photo/lineGray.png" id="lineGray">
+
+          <a href="#"><img src="photo/albomIcon.png" class="newPostIcons">
+            <span class="sozdatPublikaciyuText" id="albomsfoto">Альбом с фото/видео</span>
+          </a>
+        </div>
+
+        <div class="textPostArea">
+          <a href="#"><img src="photo/ArsalanProfilePhoto.jpeg" id="ArsalanProfilePost"></a>
+            <textarea title="О чем вы думаете?" placeholder="О чем вы думаете?" class="textArea"></textarea>
+        </div>
+
+        <div class="bottomBarPost">
+          <button type="button" name="button" id="dotupnoVsemBotton" class="withborder">
+            <img src="photo/earth.png" id="earthButton"><span id="dostupnoVsemButtonText">Доступно всем</span><img src="photo/arrowIcon.png" id="dostupnoVsemArrow">
+          </button>
+
+          <button type="submit" name="button" id="opublikovatButton" class="withborder">
+            <span id="opublikovatButtonText">Опубликовать</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="DayazWindow" class="withborder">
+        <span class="prejdeVseqo">Прежде всего вы видите публикации</span>
+        <a href="https://www.facebook.com/wwwdayaz/?hc_ref=NEWSFEED" class="blueLinks" id="internetPortal">Интернет-Портал Day.Az<span>.</span></a>
+        <img src="photo/starIzbrannoe.png" id="izbrannoyeStar">
+        <img src="photo/arrowDown.png" id="arrowDown">
+
+          <div id="dayazfirstcontent" class="withborder">
+            <div class="dayazfistPost">
+              <div class="firstdayaztopbar">
+                <a href="https://www.facebook.com/wwwdayaz/?hc_ref=NEWSFEED"><img src="photo/dayazIcon.png" id="dayazIcon"></a>
+                  <a href="https://www.facebook.com/wwwdayaz/?hc_ref=NEWSFEED" id="dayazinternetpostal2">Интернет-Портал Day.Az </a> <span id="podelilsaSsilkoy">поделился(-ась) <a href="https://www.facebook.com/wwwdayaz/posts/10155133777499668" id="ssilkoy">ссылкой.</a><img src="photo/arrowDown.png" id="arrowDown2"></span>
+                  <br><a href="http://news.day.az/politics/867240.html" id="min41">5 мин. ·</a>
+                  <img src="photo/settingsIcon.png" id="settingsDayaz">
+              </div>
+
+                <div id="presidentDiv">
+                  <a href="http://news.day.az/politics/867240.html">
+                    <img src="photo/presidentPhoto.jpeg" id="presidentPhoto">
+                    <div id="prezidentNews">
+                      <div class="content1">
+                        <span>Президент Ильхам Алиев встретился с семьей Национального героя Чингиза Гурбанова - ФОТО</span>
+                        <a href="https://www.facebook.com/wwwdayaz/posts/10155133777499668" id="newsdayaz">NEWS.DAY.AZ</a>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+            </div>
+            <hr id="lineHor1" color="#DFE0E4">
+            <div class="nravitsaBar">
+              <a href="#"><img src="photo/likeIcon.png" class="nravitsaImages"><span class="nravitsaText">Нравится</span></a>
+              <a href="#"><img src="photo/commentIcon.png" class="nravitsaImages"><span class="nravitsaText">Комментарий</span></a>
+              <a href="#"><img src="photo/shareIcon.png" class="nravitsaImages"><span class="nravitsaText">Поделиться</span></a>
+            </div>
+          </div>
+
+        <!-- SECOND DayAz -->
+        <div id="dayazSecondcontent" class="withborder">
+          <div class="dayazfistPost">
+            <div class="firstdayaztopbar">
+              <a href="#"><img src="photo/dayazIcon.png" id="dayazIcon"></a>
+                <a id="dayazinternetpostal2">Интернет-Портал Day.Az </a> <span id="podelilsaSsilkoy">поделился(-ась) <a href="" id="ssilkoy">ссылкой.</a></span>
+                <br><a id="min41" href="https://www.facebook.com/wwwdayaz/posts/10155133711934668">46 мин. ·</a>
+                <img src="photo/settingsIcon.png" id="settingsDayaz">
+            </div>
+            <div id="presidentDiv">
+              <img src="photo/post2.jpeg" id="presidentPhoto">
+              <div id="prezidentNews">
+                <div id="content2">
+                  <span>Армяне угрожают расправой российскому эксперту за слова о Лапшине на Day.Az -</span>
+                    <br><span>ФОТОФАКТ</span>
+                    <br><a href="http://news.day.az/politics/867240.html" id="newsdayaz">NEWS.DAY.AZ</a>
+                </div>
+                <hr id="lineHor1" color="#DFE0E4">
+                <div class="nravitsaBar">
+                  <a href="#"><img src="photo/likeIcon.png" class="nravitsaImages"><span class="nravitsaText">Нравится</span></a>
+                  <a href="#"><img src="photo/commentIcon.png" class="nravitsaImages"><span class="nravitsaText">Комментарий</span></a>
+                  <a href="#"><img src="photo/shareIcon.png" class="nravitsaImages"><span class="nravitsaText">Поделиться</span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="photo/wait.gif" id="wait">
+    </div>
+
+
+
+    <!-- THIRD COLUMN -->
+    <div id="thirdcolumn" class="withborder">
+      <div id="thirdColumnContainer">
+        <a href="#">
+          <img src="photo/cale15.png" id="cale15">
+          <span id="priglawenie1">1 приглашение на мероприятие</span>
+        </a>
+
+        <hr class="lineHorThirdColumn" color="#E9EAED">
+
+        <span class="igri">ИГРЫ</span>
+
+        <a href="#"><img src="photo/31.png" class="thirdcolumnIcons"></a>
+        <a href="#"><img src="photo/32.png" class="thirdcolumnIcons"></a>
+        <a href="#"><img src="photo/33.png" class="thirdcolumnIcons" id="pp"></a>
+        <a href="#"><img src="photo/34.png" class="thirdcolumnIcons"></a>
+        <a href="#"><img src="photo/35.png" class="thirdcolumnIcons"></a>
+        <a href="#"><img src="photo/arrowDown.png" class="thirdcolumnIcons" id="thirdcolumnArrow"></a>
+
+        <hr class="lineHorThirdColumn" color="#E9EAED">
+        <a href="https://apps.facebook.com/livepool/?fb_source=rightcolumn"><img src="photo/8pool.jpeg" class="thirdcolumnPhoto"></a>
+        <a href="https://apps.facebook.com/soccerstars_miniclip/?fb_source=rightcolumn"><img src="photo/soccer.jpeg" class="thirdcolumnPhoto" id="soccer"></a>
+        <li><a href="#" ><img src="photo/arrowIcon.png" id="thirdcolumnEweArrow"><span id="thirdcolumnEwe">Еще</span></a></li>
+
+        <hr class="lineHorThirdColumn" color="#E9EAED">
+
+        <a href="https://www.facebook.com/ads/about/?campaign_id=366925476690229&placement=egot&extra_1=is-admgr-user"><span id="reklama">РЕКЛАМА</span></a>
+        <a href="https://www.facebook.com/ads/manager/creation/creation/?act=222160894520039&pid=p1" id="thirdColumnSozdatReklam">Создать рекламу</a>
+
+        <a href="http://azeristudent.az/news/sat-imtahanindan-yuksek-netice-toplamaq-isteyen-sagirdler-ucun" id="lineb">
+          <img src="photo/bookGirl.png" id="bookGirl">
+          <span id="SATText">SAT IMTAHANINDAN YÜKSƏK NƏTİCƏ TOPLA...</span>
+          <span id="azeristudentText">azeristudent.az</span>
+          <br>
+          <span id="SATHazirliq">SAT hazırlıq mərkəzimizə gəlsəniz, sizi 5 ay müddətində imtahana tamamilə hazır edəcəyik!...</span>
+        </a>
+
+        <hr class="lineHorThirdColumn" color="#E9EAED">
+
+        <a href="https://www.facebook.com/InvestAZAzerbaijan/" id="lineb">
+          <img src="photo/mensurInvest.png" id="mensurInvest">
+          <span class="thirdColMensurLinks">
+            <br>InvestAZ
+          </span>
+            <span id="qazanmagiText">
+              <br>Qazanmağı öyrənməyin yollarını InvestAZ-la kəşf edin!
+              <br>
+            </span>
+        </a>
+
+        <br><button type="button" name="button" class="withborder" id="nravitsaRightButton"><img src="photo/likeIcon.png" class="nravitsaImagesRR"><span id="nravitsaRight">Нравится</span></button>
+      </div>
+    </div>
+
+    <!-- LANG -->
+    <div id="lang" class="withborder">
+      <div class="langContainer">
+        <span id="russkiy">Русский</span> ·
+        <a href="#" class="gray">Azərbaycan dili</a> ·
+        <a href="#">Türkçe</a> ·
+          <button type="button" name="button" id="plus" class="withborder">
+          <span id="plusSign">+</span>
+          </button>
+          <br>
+        <a href="#">English (US)</a> ·
+        <a href="#">Español</a> ·
+      </div>
+    </div>
+
+    <!-- Конфиденциальность -->
+    <div class="confed">
+      <li class="confedText">
+        <a href="#">Конфиденциальность</a> ·
+        <a href="#">Условия использования</a> ·
+        <a href="#">Реклама</a> ·
+        <a href="#">Выбор рекламы</a> ·
+        <a href="#">Файлы «cookie»</a> ·
+        <a href="#"><br>Еще</a>
+        <br><br>Facebook © 2017
+      </li>
+    </div>
+  </div>
+
+  <!-- FOURTH COLUMN -->
+  <div class="fourthColumn">
+    <div class="fourthContainer">
+      <div class="games">
+        <span class="vawiIgri">ВАШИ ИГРЫ</span>
+        <a href="#"><span class="eweFourth">ЕЩЕ</span></a>
+
+        <br>
+        <a href="https://apps.facebook.com/livepool/?fb_source=sidebar_bookmark"><img src="photo/r1.png" class="fourthPhoto" id="firstFourthPhoto"></a>
+        <a href="https://apps.facebook.com/totaldominationgame/?fb_source=sidebar_bookmark"><img src="photo/r2.png" class="fourthPhoto"></a>
+        <a href="https://apps.facebook.com/soccerstars_miniclip/?fb_source=sidebar_bookmark"><img src="photo/r3.png" class="fourthPhoto"></a>
+        <a href="#"><img src="photo/strRight.png" class="strelkaRight"></a>
+
+        <hr color="#DDDFE2" border-width=".1px">
+
+        <span class="vawiIgri">РЕКОМЕНДУЕМЫЕ ИГРЫ</span>
+        <a href="#"><span class="eweFourth2">ЕЩЕ</span></a>
+
+        <a href="#"><img src="photo/strLeft.png" class="strelkaRight"></a>
+        <a href="https://www.facebook.com/games/?fbs=1303&app_id=270523990029405"><img src="photo/r4.png" class="fourthPhoto" id="fourthPhoto"></a>
+        <a href="https://www.facebook.com/games/happywheels-game/?fbs=1303"><img src="photo/r5.png" class="fourthPhoto"></a>
+        <a href="https://www.facebook.com/games/?fbs=1303&app_id=1939493539611692"><img src="photo/r6.png" class="fourthPhoto"></a>
+        <a href="#"><img src="photo/strRight.png" class="strelkaRight" id="rilast"></a>
+      </div>
+
+      <hr color="#DDDFE2" id="hor5">
+
+      <!-- SPLETNI -->
+      <div class="spletni">
+        <div class="slotSpletni">
+          <a href="https://www.facebook.com/miradil.zeynalli.3/posts/1074203786023887:71">
+            <img src="photo/Miradil.jpeg" alt="" class="rigthPhotoProfil">
+            <strong>Мирадилю Зейналлы</strong><span> нравится фото Sarcasm.</span>
+          </a>
+        </div>
+
+        <hr color="#DDDFE2" border-width=".1px" id="hor6">
+
+        <div class="slotSpletni">
+          <a href="https://www.facebook.com/rasim.xankishiyev/posts/773032356186819:57">
+            <img src="photo/Rasim.jpeg" class="rigthPhotoProfil">
+            <strong>Rasim Xankishiyev</strong><span id="maya"> нравится публикация Raya Mammadzada.</span>
+          </a>
+        </div>
+
+        <hr color="#DDDFE2" border-width=".1px" id="hor6">
+
+        <div class="slotSpletni">
+          <a href="https://www.facebook.com/permalink.php?story_fbid=655007094699275&id=100005699708425&substory_index=26">
+            <img src="photo/Nazrin.jpeg" alt="" class="rigthPhotoProfil">
+            <strong>Nazrin Azizova</strong><span> нравится ссылка 9GAG.</span>
+          </a>
+        </div>
+
+        <hr color="#DDDFE2" border-width=".1px" id="hor6">
+
+        <div class="slotSpletni">
+          <a href="https://www.facebook.com/rasim.xankishiyev/posts/773032356186819:57">
+            <img src="photo/Elnur.jpeg" class="rigthPhotoProfil">
+            <strong>Elnur Hasanov</strong><span> нравится ссылка autoqaraj.az.</span>
+          </a>
+        </div>
+      </div>
+
+      <hr color="#DDDFE2" id="hor7">
+
+      <!-- ONLINE FRIENDS -->
+      <div class="onlineFriends">
+        <div class="rightFriends">
+            <img src="photo/Farhad.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Farhad Mammadli</span>
+        </div>
+
+        <br>
+        <div class="rightFriends">
+            <img src="photo/Emil Abbasov.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Emil Neo</span>
+        </div>
+
+        <br>
+        <div class="rightFriends">
+            <img src="photo/u.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Azer Alizade</span>
+        </div>
+
+        <br>
+        <div class="rightFriends">
+            <img src="photo/Fadai.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Fadai Ganjaliyev</span>
+        </div>
+
+        <br>
+        <div class="rightFriends">
+            <img src="photo/u.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames" id="isa">Isa Mamedov</span>
+        </div>
+
+        <br>
+
+        <span id="poblizosti">ПОБЛИЗОСТИ</span>
+        <img src="photo/i.png" id="i">
+
+        <br>
+        <br>
+
+        <div class="poblizostiDruzya">
+            <img src="photo/Firuz.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Эйси Диси</span>
+            <br>
+            <span class="hours">10 ч</span>
+            <br>
+            <span class="baku">Баку</span>
+        </div>
+
+        <div class="poblizostiDruzya">
+            <img src="photo/resad.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Rəşad Qasımov</span>
+            <br>
+            <span class="hours">10 ч</span>
+            <br>
+            <span class="baku">Баку</span>
+        </div>
+
+        <div class="poblizostiDruzya">
+            <img src="photo/u.jpeg" class="rigthPhotoProfil">
+            <span class="rightNames">Elnur Hacizade</span>
+            <br>
+            <span class="hours">10 ч</span>
+            <br>
+            <span class="baku">Баку</span>
+        </div>
+      </div>
+
+      <div class="poisk">
+        <img src="photo/lupa.png" id="poiskLupa">
+        <input placeholder="Поиск" type="text" id="poiskLast">
+        <img src="photo/poiskS.png" id="poiskS">
+        <img src="photo/poiskW.png" id="poiskW">
+      </div>
+    </div>
+  </div>
+</body>
